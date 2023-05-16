@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.App {
+  max-width: 1140px;
+  width: 80%;
+  margin: auto;
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 59px;
+}
+label span{
+  display: block;
+}
+
+.btn {
+  width: 120px;
+  height: 48px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type=search],input[type=text]
+,textarea  {
+  width: 374px;
+  height: 48px;
+  border: 1px solid #000000;
+  outline: none;
+}
+
+input[type=submit]{
+  width: 120px;
+  height: 48px;
+  color: #fff;
+  background: #833AE0;
+  outline: none;
+}
+
+.d-flex {
+  display: flex;
+
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.add {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.btn-action {
+  background-color: #E5E5E5;
+  border: 1px solid #E5E5E5;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+ul li{
+  gap: 40px;
+ 
+}
+
+ul li img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+ul li h4 {
+  max-width: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #833AE0;
+}
+ul li p{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125.5%;
+  width: 200px;
+}
+form{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 15px;
+}
